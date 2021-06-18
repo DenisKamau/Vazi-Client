@@ -1,0 +1,52 @@
+{
+  "name": "Vazi",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.8.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "radium": "^0.26.1",
+    "react": "^16.13.1",
+    "react-animations": "^1.0.0",
+    "react-currency-format": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.2.4",
+    "react-fade-in": "^1.1.1",
+    "react-image-gallery": "^1.0.8",
+    "react-lottie": "^1.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "sweetalert": "^2.1.2",
+    "tachyons": "^4.12.0"
+  },
+  "scripts": {
+    "start": "set PORT=10000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "backend": "nodemon vazi backend/server.js",
+    "frontend": "npm run front --prefix client",
+    "dev": "concurrently \"npm run backend\" \"npm run start --prefix vazi frontend\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
