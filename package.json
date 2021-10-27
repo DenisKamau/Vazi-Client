@@ -5,11 +5,11 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
+    "@testing-library/jest-dom": "^5.1.0",
+    "@testing-library/react": "^10.0.0",
     "@testing-library/user-event": "^7.2.1",
     "antd": "^4.8.4",
-    "axios": "^0.21.1",
+    "axios": "^0.21.3",
     "bootstrap": "^4.5.3",
     "radium": "^0.26.1",
     "react": "^16.13.1",
@@ -21,7 +21,7 @@
     "react-image-gallery": "^1.0.8",
     "react-lottie": "^1.2.3",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3",
+    "react-scripts": "4.0.0",
     "sweetalert": "^2.1.2",
     "tachyons": "^4.12.0"
   },
